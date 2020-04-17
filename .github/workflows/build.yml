@@ -1,10 +1,6 @@
 name: Build Eigenpy
-on:
-  pull_request:
-  push:
-    branches:
-      - master
-      - devel
+
+on: [push,pull_request]
 
 jobs:
   build:
